@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet&family=Lora:ital@1&family=Montserrat:wght@300;400;500;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* navbar styling */
+nav{
+    display: flex;
+    margin: 0 auto;
+    width: 90vw;
+    border-radius: 0 0 10px 10px;
+}
+.navbar-brand{
+        font-size: 2rem !important;
+        font-weight: bold;
+        margin: 0 2rem;
+}
+
+.nav-ul{
+    margin: 0 0 0 40rem;
+}
+/* navbar styling */
+
+/* home section styling */
+#home{
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 20 20'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1007%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M-14.439560820792018 117.23217603911402L173.58382469574767 77.45381998950077 63.3659078253424-49.337389487924895z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-57.16 -17.52 a39.64 39.64 0 1 0 79.28 0 a39.64 39.64 0 1 0 -79.28 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M117.96708478242792 172.543136330672L167.08553117584762 11.883937328882041 6.426332174057649-37.23450906453766-42.692114219362054 123.42468993725231z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1503.6265246504138 0.2172354370442804L1345.7581643583812-57.24214864166806 1288.2987802796688 100.62621165036455 1446.1671405717013 158.08559572907689z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1441.8620393066014-62.63476147193752L1283.0149186059161-7.9393115231351885 1337.7103685547186 150.90780917755006 1496.5574892554039 96.2123592287477z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1255.03 -1.7 a71.27 71.27 0 1 0 142.54 0 a71.27 71.27 0 1 0 -142.54 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M78.9521244059753 601.8677110907449L170.69715336634235 537.6271502194278 28.463797579183044 432.1298872145358z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M184.07250172380216 472.0679389260746L40.06839520584728 385.5415423411855-46.45800137904183 529.5456488591403 97.54610513891305 616.0720454440295z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M25.532%2c528.808C44.063%2c527.984%2c57.391%2c513.343%2c66.876%2c497.402C76.652%2c480.971%2c83.86%2c461.864%2c75.631%2c444.607C66.328%2c425.1%2c47.144%2c410.644%2c25.532%2c410.702C4.003%2c410.76%2c-13.992%2c425.869%2c-24.104%2c444.875C-33.59%2c462.705%2c-32.996%2c484.004%2c-22.716%2c501.388C-12.624%2c518.454%2c5.725%2c529.689%2c25.532%2c528.808' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1447.9916050779898 388.556088502837L1286.499640160352 434.86316428009286 1332.806715937608 596.3551291977304 1494.2986808552457 550.0480534204746z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1465.6311726663434 549.2488978896581L1363.9439597565831 386.1697090219299 1282.4959435551984 533.1058198213484z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1475.554%2c757.735C1533.872%2c757.489%2c1588.769%2c728.26%2c1617.817%2c677.69C1646.758%2c627.307%2c1645.748%2c564.343%2c1614.94%2c515.079C1585.816%2c468.508%2c1530.467%2c451.464%2c1475.554%2c450.199C1417.764%2c448.868%2c1355.435%2c459.507%2c1324.581%2c508.389C1292.041%2c559.941%2c1299.623%2c626.749%2c1331.198%2c678.898C1361.634%2c729.165%2c1416.792%2c757.983%2c1475.554%2c757.735' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1007'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+text-align: center;
+height: 32rem;
+color: white;
+}
+
+.typing{
+    font-family: 'Lora', serif;
+    margin: 10rem auto;
+    font-size: 5rem;
+}
+/* home section styling */
+
+
+/* About section styling */
+#about-us > h1{
+text-align: center;
+margin: 1rem auto 5px;
+font-size: 3rem;
+}
+
+.line{
+    margin: 0 auto 25px;
+    width: 40%;
+    color: rgb(80, 216, 175);
+}
+
+#about-us{
+    margin: 1rem auto;
+    width: 60vw;
+}
+
+.us-content {
+    font-size: 1.2rem;
+}
+.us-content > h1{
+    color: cornflowerblue;
+    font-size: 3rem;
+}
+
+
+.text-1{
+    opacity: 80%;
+}
+
+/* About section styling */
+
+/* Services Section */
+
+#services > h1{
+  text-align: center;
+  margin: 1rem auto 5px;
+  font-size: 3rem;
+}
+.design-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  min-height: 100vh;
+  padding: 100px 0;
+  font-family: Jost;
+}
+
+.design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline {
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-content {
+  padding: 20px;
+  background: #1f1f1f;
+  border-radius: 5px;
+  color: white;
+  padding: 1.75rem;
+  transition: 0.4s ease;
+  overflow-wrap: break-word !important;
+  margin: 1rem;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.timeline-component {
+  margin: 0px 20px 20px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .timeline {
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+  }
+  .timeline-middle {
+    position: relative;
+    background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+    width: 3px;
+    height: 100%;
+  }
+  .main-middle {
+    opacity: 0;
+  }
+  .timeline-circle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}  
+/* Services Section */
