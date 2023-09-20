@@ -1,8 +1,9 @@
+// dynamic text
 function sleep(ms) {
-    return new Promise((resolve) => setTimeout(resolve, ms));
-  }
-  const phrases = ["Making your ideas Happen!"];
-  const el = document.getElementById("typing");
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+const phrases = ["Making your ideas Happen!"];
+const el = document.getElementById("typing");
   
   let sleepTime = 80;
   
@@ -23,7 +24,7 @@ function sleep(ms) {
         el.innerText = curWord.substring(0, i - 1);
         await sleep(sleepTime);
       }
-  
+      
       await sleep(sleepTime * 5);
   
       if (curPhraseIndex === phrases.length - 1) {
@@ -35,4 +36,11 @@ function sleep(ms) {
   };
   
   writeLoop();
+  // dynamic text end
   
+  // Dynamic copyright Year
+  const year = new Date().getFullYear();
+  document.querySelectorAll('.right').forEach(element => {
+    element.innerHTML = year;
+  });
+  // Dynamic copyright Year end
