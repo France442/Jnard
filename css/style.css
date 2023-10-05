@@ -161,7 +161,9 @@ font-size: 3rem;
 }
 /* Contact us */
 
-
+.client-img{
+  width: 20%;
+}
 .clients-mobile{
   visibility: hidden;
 }
@@ -178,9 +180,16 @@ font-size: 3rem;
   margin: auto;
 }
 
+.our-clients{
+  visibility: visible;
+}
 
+.our-clients{
+  margin: auto 100px;
+}
 .our-clients > h1{
 text-align: center;
+
 }
 /* Contact us */
 #contact{
@@ -252,8 +261,18 @@ text-align: center;
 
 }  
 /* Services Section */
-
-
+.our-clients{
+  visibility: hidden;
+}
+.clients-mobile{
+  visibility: visible;
+}
+.clients-mobile > h1{
+  text-align: center;
+}
+.carousel-item > img{
+  margin: 5px auto 30px;
+}
 /* footer */
 .site-footer
 {
